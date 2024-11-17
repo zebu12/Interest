@@ -18,7 +18,7 @@ public class Interest {
 
         for (int year = 1; year <= n; year++) {
 
-            amount = depositAmount * Math.pow(1 + rate, year);
+            amount = depositAmount * Math.pow(1.0 + rate, year);
             System.out.println("Year " + year + ": " + amount);
         }
         System.out.println();
